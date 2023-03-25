@@ -1,0 +1,18 @@
+.main-nav {
+    background-color: #004DB3;
+}
+
+.nav-links > div{
+    padding: 10px;
+}
+
+.nav-links > button {
+    width: 123.33px;
+    height: 45.17px;
+    background: #FFFFFF;
+    border-radius: 3.39583px;
+    font-size: 13.5833px;
+    line-height: 18px;
+    text-transform: capitalize;
+    color: #004DB3;
+}

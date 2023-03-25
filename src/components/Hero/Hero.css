@@ -1,0 +1,39 @@
+.main-hero {
+    background-color: #004DB3;
+    height: 490.29px;
+}
+
+.hero-text > h1 {
+    font-family: 'Clash Display';
+}
+
+.hero-text > p {
+    height: 52px;
+    font-size: 14px;
+    line-height: 20px;
+    /* or 162% */
+    color: #E7E7E7;
+}
+
+.button-right {
+    width: 123.33px;
+    /* height: 45.17px; */
+    background: #FFFFFF;
+    border-radius: 3.39583px;
+    font-size: 13.5833px;
+    line-height: 18px;
+    text-transform: capitalize;
+    color: #004DB3;
+}
+
+.button-left {
+    width: 184.1px;
+    /* height: 45.17px; */
+    border: 0.848958px solid #FFFFFF;
+    border-radius: 3.39583px;
+    color: #FFF;
+}
+
+.hero-partners {
+    background-color:#CCDBF0;
+}
