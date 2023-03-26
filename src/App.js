@@ -1,6 +1,6 @@
 import './App.css';
 
-import { Navbar, Hero, Body, Footer } from './components'
+import { Navbar, Hero, Body, Card, FAQ, Footer, Community } from './components'
 
 function App() {
   return (
@@ -8,6 +8,9 @@ function App() {
       <Navbar />
       <Hero />
       <Body />
+      <Card />
+      <Community />
+      <FAQ />
       <Footer />
     </div>
   );

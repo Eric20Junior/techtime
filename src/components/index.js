@@ -1,4 +1,7 @@
 export { Navbar } from '../components/Navbar/Navbar'
 export { Hero } from '../components/Hero/Hero'
 export { Body } from '../components/Body/Body'
+export { Card } from '../components/Card/Card'
+export { Community } from '../components/Community/Community'
+export { FAQ } from '../components/FAQ/FAQ'
 export { Footer } from '../components/Footer/Footer'
