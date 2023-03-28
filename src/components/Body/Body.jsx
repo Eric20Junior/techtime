@@ -7,6 +7,8 @@ import enrolled2 from '../../assets/enrolled2.png'
 
 export const Body = () => {
   return (
+
+    // body section
     <>
       <div className="main-body lg:flex">
         <div className="body-text text-center px-3 lg:text-left lg:pl-20 lg:pt-20">
@@ -32,7 +34,7 @@ export const Body = () => {
             <img className='xs:px-5 xs:mt-5 lg:text-left lg:ml-14 lg:w-[80%] ' src={kid} alt="" />
         </div>
         <div className="body_image-2">
-        <img className='xs:mx-auto lg:pt-20 ' src={frame22} alt="" />
+        <img className='xs:mx-auto lg:pt-24 ' src={frame22} alt="" />
         </div>
       </div>
     </>

@@ -7,6 +7,8 @@ export const Navbar = () => {
   const [navOpen, setNavOpen] = useState(false)
   
   return (
+
+    // Navbar section
     <div>
       <div className="main-nav flex justify-between sm:flex sm:justify-between px-4 lg:px-16 py-8">
         <img className='h-full lg:w-18 sm:w-18' src={techtime} alt="" />

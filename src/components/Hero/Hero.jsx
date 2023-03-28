@@ -5,6 +5,8 @@ import partners from '../../assets/partners.png'
 
 export const Hero = () => {
   return (
+
+    // hero section
     <>
       <div className=' main-hero lg:flex px-6 lg:px-28'>
         <div className="container hero-text">
