@@ -8,7 +8,7 @@ export const Hero = () => {
 
     // hero section
     <>
-      <div className=' main-hero lg:flex px-6 lg:px-28'>
+      <div className=' main-hero lg:flex px-6 lg:px-28' id='home'>
         <div className="container hero-text">
             <h1 className='font-bold text-white text-center lg:text-left text-3xl lg:text-6xl lg:pt-14 xl:w-3/4 lg:leading-none'>Grow your skills to advance your career path </h1>
               <p className='font-medium pt-6 text-center w-full lg:w-3/4 lg:text-left capitalize'>build your future with our quality education. the best and largest all-in-one online tutoring platform in the world</p>

@@ -24,7 +24,7 @@ export const Card = () => {
 
   return (
     <div>
-      <div className="main_card">
+      <div className="main_card" id='courses'>
         <div className="card-text xs:pt-16">
           <h1 className='xs:font-bold xs:capitalize xs:text-center xs:text-4xl '>browse our popular courses</h1>
 
@@ -43,18 +43,18 @@ export const Card = () => {
         {/* card section */}
         <div className="card_courses xs:w-[100%] xs:grid xs:grid-rows-2 xs:grid-cols-2 lg:grid lg:grid-cols-3 xs:justify-items-center xs:px-4 xs:space-x-3 lg:px-[180px] lg:py-[50px] xs:gap-y-6">
         {items?.map((obj) => (
-          <div key={obj.id} className="main_sub-card">
-            <img className='xs:pt-4 xs:px-1 xs:rounded xs:w-[260px]' src={obj.img} alt="" />
-            <div className='xs:flex xs:justify-between  xs:text-xs xs:px-1 xs:pt-3'>
+          <div key={obj.id} className="main_sub-card xs:bg-white shadow xs:rounded xs:h-[310px] lg:h-[350px]">
+            <img className='xs:pt-4 xs:px-3 xs:rounded xs:w-[260px]' src={obj.img} alt="" />
+            <div className='xs:flex xs:justify-between  xs:text-xs xs:px-3 xs:pt-3'>
               <span className='xs:bg-[#1E5DCE33] xs:rounded-full xs:text-[10px] xs:w-[80px] xs:h-5 xs:text-center xs:pt-0.5 xs:text-[#004DB3]'>{obj.category}</span>
               <div className="card_stats xs:text-[#A1A1A1] xs:text-xs">
                 <span>{obj.stats.rating} </span>
                 <span>({obj.stats.reviewCount}K)</span>
               </div>
             </div>
-            <h1 className='xs:text-xs xs:pt-3 xs:px-1 xs:font-bold'>{obj.title}</h1>
+            <h1 className='xs:text-sm xs:w-[200px] xs:pt-3 xs:px-3 xs:font-bold '>{obj.title}</h1>
 
-            <div className='xs:flex xs:justify-between  xs:text-xs xs:pt-4 xs:px-1 xs:text-[#A1A1A1]'>
+            <div className='xs:flex xs:justify-between  xs:text-xs xs:pt-4 xs:px-3 xs:text-[#A1A1A1]'>
               <span>{obj.course.duration}</span>
               <span>{obj.course.totalLessons} Lessons</span>
             </div>
