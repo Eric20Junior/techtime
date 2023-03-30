@@ -5,7 +5,7 @@ import { BsFacebook, BsTwitter, BsYoutube, BsInstagram, BsDiscord } from 'react-
 export const Footer = () => {
   return (
     // main footer
-    <div className='main-footer xs:block lg:flex xs:justify-evenly xs:bg-[#000F24] xs:text-white xs:h-[700px] lg:h-[400px] xs:pt-16 xs:pl-4'>
+    <div className='main-footer xs:block lg:flex xs:justify-evenly xs:bg-[#000F24] xs:text-white xs:h-[740px] lg:h-[400px] xs:pt-16 xs:pl-4'>
       <div className="socials">
         <img className='xs:w-16 xs:pb-3' src={logo} alt="" />
         <p className='xs:w-[240px] xs:text-xs'>Reach out to us on any of our social media networks</p>
@@ -44,10 +44,10 @@ export const Footer = () => {
         <p className='xs:font-bold'>Subscribe Us</p>
 
         <div>
-          <form className='xs:rounded' action="">
-          <input className='xs:h-8 xs:w-44 xs:border-[#004DB3] xs:bg-[#2A2A2B] xs:text-xs xs:mt-4' type="text" placeholder='Nh123@gmail.com' />
+          <form action="">
+          <input className='xs:h-8 xs:w-44 xs:border-[#004DB3] xs:bg-[#2A2A2B] xs:text-xs xs:mt-4 xs:ring-2 xs:rounded ' type="text" placeholder='Nh123@gmail.com' />
 
-          <button className='xs:h-8 xs:w-20 xs:bg-[#054FB3] xs:text-[8px]' type="submit">Send Message</button>
+          <button className='xs:h-8 xs:w-20 xs:bg-[#054FB3] xs:text-[8px] xs:ring-2 xs:rounded ' type="submit">Send Message</button>
           </form>
         </div>
       </div>
