@@ -12,7 +12,7 @@ export const Community = () => {
     infinite: true,
     speed: 500,
     slidesToShow: 3,
-    slidesToScroll: 3
+    slidesToScroll: 1
   };
   return (
     <>
@@ -26,20 +26,61 @@ export const Community = () => {
 
   
       {/* testimonail slider */}
-        <div className="container">
+        <div className="container xs:pt-6 xs:text-[#A1A1A1]">
           <Slider {...settings}>
-            <div className='xs:text-xs xs:bg-white xs:shadow'>
-              <p>high-defination video is video of higher resolution and quality than standard definition. high-defination video is video of higher resolution and quality than standard definition. hbuild your future with our quality education. the best and largest all-in-one online tutoring platform in the worldd definition. high-defination video is video of higher resolution and quality than standard definition. build your future with our quality education. the best and largest all-in-one online tutoring platform in the world</p>
+            <div className='xs:text-xs xs:bg-white xs:shadow xs:px-3 xs:py-3 xs:pr-4  '>
+              <p>high-defination video is video of higher resolution and quality than standard definition. high-defination video is video of higher resolution and quality than standard definition.</p>
 
-              <div className='xs:flex xs:space-x-2 '>
+              <div className='xs:flex xs:space-x-2'>
                 <img src={img1} alt="" />
                 <div >
-                  <p>name</p>
-                  <p>job</p>
+                  <p className='xs:text-black xs:font-bold'>Bella Moon</p>
+                  <p>Product Manager</p>
                 </div>
               </div>
               
             </div>
+
+            <div className='xs:text-xs xs:bg-white xs:shadow xs:px-3 xs:py-3'>
+              <p>high-defination video is video of higher resolution and quality than standard definition. high-defination video is video of higher resolution and quality than standard definition. </p>
+
+              <div className='xs:flex xs:space-x-2 '>
+                <img src={img1} alt="" />
+                <div >
+                  <p className='xs:text-black xs:font-bold'>Jeffery Williams</p>
+                  <p>Software Engineer</p>
+                </div>
+              </div>
+              
+            </div>
+
+            <div className='xs:text-xs xs:bg-white xs:shadow xs:px-3 xs:py-3'>
+              <p>high-defination video is video of higher resolution and quality than standard definition. high-defination video is video of higher resolution and quality than standard definition.</p>
+
+              <div className='xs:flex xs:space-x-2 '>
+                <img src={img1} alt="" />
+                <div >
+                  <p className='xs:text-black xs:font-bold'>Claretta Mason</p>
+                  <p>Designer</p>
+                </div>
+              </div>
+              
+            </div>
+
+            <div className='xs:text-xs xs:bg-white xs:shadow xs:px-3 xs:py-3'>
+              <p>high-defination video is video of higher resolution and quality than standard definition. high-defination video is video of higher resolution and quality than standard definition.</p>
+
+              <div className='xs:flex xs:space-x-2 '>
+                <img src={img1} alt="" />
+                <div >
+                  <p className='xs:text-black xs:font-bold'>Samuel Jacobs</p>
+                  <p>Web Developer</p>
+                </div>
+              </div>
+              
+            </div>
+
+           
             
           </Slider>
         </div>

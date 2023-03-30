@@ -32,7 +32,7 @@ export const Card = () => {
         </div>
 
             {/* category section */}
-        <div className="card_category xs:space-x-4 xs:font-bold xs:text-xs xs:text-center xs:pt-12  lg:space-x-20 ">
+        <div className="card_category xs:space-x-4 xs:font-bold xs:text-xs xs:text-center xs:pb-4 xs:pt-12  lg:space-x-20 ">
           <button className='category xs:bg-white xs:text-[#004DB3] xs:h-6 xs:w-20' value='all' onClick={handleCategory} >All Category</button>
           <button className='xs:visited:bg-white' onClick={() => fliterItem('Design')}>Design</button>
           <button onClick={() => fliterItem('Development')} >Development</button>
