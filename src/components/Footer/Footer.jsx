@@ -1,5 +1,6 @@
 import React from 'react'
 import logo from '../../assets/techtime.png'
+import { BsFacebook, BsTwitter, BsYoutube, BsInstagram, BsDiscord } from 'react-icons/bs'
 
 export const Footer = () => {
   return (
@@ -8,8 +9,12 @@ export const Footer = () => {
       <div className="socials">
         <img className='xs:w-16 xs:pb-3' src={logo} alt="" />
         <p className='xs:w-[240px] xs:text-xs'>Reach out to us on any of our social media networks</p>
-        <div className="social-icons">
-
+        <div className="social-icons xs:flex xs:space-x-10 xs:text-[#2A2A2B] xs:pt-4">
+        <BsFacebook />
+        <BsTwitter />
+        <BsYoutube />
+        <BsInstagram />
+        <BsDiscord /> 
         </div>
       </div>
 
