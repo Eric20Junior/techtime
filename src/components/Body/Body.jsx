@@ -3,7 +3,6 @@ import classes from '../../assets/classes.png'
 import pc from '../../assets/pc.png'
 import kid from '../../assets/kid.png'
 import frame22 from '../../assets/frame22.png'
-import enrolled2 from '../../assets/enrolled2.png'
 
 export const Body = () => {
   return (

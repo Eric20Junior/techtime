@@ -43,7 +43,7 @@ export const Card = () => {
         {/* card section */}
         <div className="card_courses xs:w-[100%] xs:grid xs:grid-rows-2 xs:grid-cols-2 lg:grid lg:grid-cols-3 xs:justify-items-center xs:px-4 xs:space-x-3 lg:px-[180px] lg:py-[50px] xs:gap-y-6">
         {items?.map((obj) => (
-          <div key={obj.id} className="main_sub-card xs:bg-white shadow xs:rounded xs:h-[310px] lg:h-[350px]">
+          <div key={obj.id} className="main_sub-card xs:bg-white shadow xs:rounded xs:h-[340px] lg:h-[350px]">
             <img className='xs:pt-4 xs:px-3 xs:rounded xs:w-[260px]' src={obj.img} alt="" />
             <div className='xs:flex xs:justify-between  xs:text-xs xs:px-3 xs:pt-3'>
               <span className='xs:bg-[#1E5DCE33] xs:rounded-full xs:text-[10px] xs:w-[80px] xs:h-5 xs:text-center xs:pt-0.5 xs:text-[#004DB3]'>{obj.category}</span>
