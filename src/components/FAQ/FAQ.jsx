@@ -14,7 +14,7 @@ export const FAQ = () => {
     <div className='faq-container'>
       <div className="faq-text">
         <h1 className='faq-title'>Frequently Asked Questions</h1>
-        <p className='faq-description'>High-definition video is video of higher resolution and quality than standard definition. While there’s no standard meaning for high definition, generally any standard video image.</p>
+        <p className='faq-description mx-auto'>High-definition video is video of higher resolution and quality than standard definition. While there’s no standard meaning for high definition, generally any standard video image.</p>
       </div>
 
       <div className="faq">
